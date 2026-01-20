@@ -37,13 +37,15 @@
 # Usage
 
 ## Windows
+> [!WARNING]
+> Windows theme is not 100% reliable and might not work for you.
 1. Install 7-zip and its asar7z plugin.
-1. Open `C:\Users\user_name\AppData\Local\Programs\signal-desktop\resources\app.asar` with 7zip.
-1. Go into stylesheets directory.
-1. Copy the theme you want to use into the directory.
-1. Right click and edit `manifest.css` file and add import statement at the top. `@import "catppuccin-<flavor>.css";` Replace `<flavor>` with flavor you want to use.
-1. Save and close your editor.
-1. Enjoy!
+2. Open `C:\Users\user_name\AppData\Local\Programs\signal-desktop\resources\app.asar` with 7zip.
+3. Go into stylesheets directory.
+4. Copy the theme you want to use into the directory.
+5. Right click and edit `manifest.css` file and add import statement at the top. `@import "catppuccin-<flavor>.css";` Replace `<flavor>` with flavor you want to use.
+6. Save and close your editor.
+7. Enjoy!
 
 ## Linux
 1. Install `@electron/asar` from npm, i.e. with:
